@@ -6,21 +6,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Length Converter App</title>
-	<link rel="stylesheet" href="assets/main.css" type="text/css" />
+	<link rel="stylesheet" href="/assets/style/main.css" type="text/css" />
 </head>
 
 <body>
 
 	<div class="container">
-		<div class="row">
+		<div class="header-row">
 			<h1 class="title">Length Conversion Calculator</h1>
 			<p>Input your length for conversion below, select the unit type from the list.</p>
 		</div>
 		<div class="row">
 			<form class="lengthform">
-				<input type="text" name="measurement" id="lengthInput"/>
-				<select name="unitType" id="unitType">
-					<option value="" selected disabled>Select Unit</option>
+				<div class="formrow">
+					<input placeholder="Enter measurement here..." type="text" name="measurement" id="lengthInput" />
+					<select name="unitInputType" id="unitInputType">
+					<option value="" selected disabled>Unit Input</option>
 					<option value="km">Kilometers</option>
 					<option value="m">Meters</option>
 					<option value="cm">Centimeters</option>
@@ -30,11 +31,98 @@
 					<option value="Ft">Feet</option>
 					<option value="In">Inches</option>
 				</select>
-				<input type="submit" value="Submit"/>
+					<p> convert to </p>
+					<select name="unitOutputType" id="unitOutputType">
+					<option value="" selected disabled>Unit Output</option>
+					<option value="km">Kilometers</option>
+					<option value="m">Meters</option>
+					<option value="cm">Centimeters</option>
+					<option value="mm">Millimeters</option>
+					<option value="M">Miles</option>
+					<option value="Yrd">Yards</option>
+					<option value="Ft">Feet</option>
+					<option value="In">Inches</option>
+				</select>
+				</div>
+				<h3>Key</h3>
+					<div class="imperial-key">
+						<p class="margin-center">Imperial</p>
+					</div>
+					<div class="metric-key">
+						<p class="margin-center">Metric</p>
+					</div>
 			</form>
+			
+		</div>
+		<div class="card-container" id="Moutp">
+			<div class="card1">
+				<div class="card-block">
+					<h4>Miles Output</h4>
+					<div id="Moutput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="Youtp">
+			<div class="card1">
+				<div class="card-block">
+					<h4>Yards Output</h4>
+					<div id="Youtput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="Foutp">
+			<div class="card1">
+				<div class="card-block">
+					<h4>Feet Output</h4>
+					<div id="Foutput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="Ioutp">
+			<div class="card1">
+				<div class="card-block">
+					<h4>Inches Output</h4>
+					<div id="Ioutput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="Kmoutp">
+			<div class="card2">
+				<div class="card-block">
+					<h4>Kilometers Output</h4>
+					<div id="Kmoutput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="moutp">
+			<div class="card2">
+				<div class="card-block">
+					<h4>Meters Output</h4>
+					<div id="moutput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="Cmoutp">
+			<div class="card2">
+				<div class="card-block">
+					<h4>Centimeters Output</h4>
+					<div id="Cmoutput">Figure</div>
+				</div>
+			</div>
+		</div>
+		<div class="card-container" id="Mmoutp">
+			<div class="card2">
+				<div class="card-block">
+					<h4>Millimeters Output</h4>
+					<div id="Mmoutput">Figure</div>
+				</div>
+			</div>
 		</div>
 	</div>
-<script type="text/javascript" src="assets/main.js"></script>
+
+	<script src="/assets/script/main.js"></script>
+
+
 </body>
 
 </html>
