@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Length Converster App</title>
+	<title>Length Converter App</title>
+	<link rel="stylesheet" href="assets/main.css" type="text/css" />
 </head>
+
 <body>
-	
+
+	<div class="container">
+		<div class="row">
+			<h1 class="title">Length Conversion Calculator</h1>
+			<p>Input your length for conversion below, select the unit type from the list.</p>
+		</div>
+		<div class="row">
+			<form class="lengthform">
+				<input type="text" name="measurement" id="lengthInput"/>
+				<select name="unitType" id="unitType">
+					<option value="" selected disabled>Select Unit</option>
+					<option value="km">Kilometers</option>
+					<option value="m">Meters</option>
+					<option value="cm">Centimeters</option>
+					<option value="mm">Millimeters</option>
+					<option value="M">Miles</option>
+					<option value="Yrd">Yards</option>
+					<option value="Ft">Feet</option>
+					<option value="In">Inches</option>
+				</select>
+				<input type="submit" value="Submit"/>
+			</form>
+		</div>
+	</div>
+<script type="text/javascript" src="assets/main.js"></script>
 </body>
+
 </html>
