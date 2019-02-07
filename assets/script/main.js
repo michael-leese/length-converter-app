@@ -1,7 +1,6 @@
-console.log('hello');
 
-document.getElementById('unitInputType').style.visibility = 'hidden';
-document.getElementById('unitOutputType').style.visibility = 'hidden';
+/*document.getElementById('unitInputType').style.visibility = 'hidden';
+document.getElementById('unitOutputType').style.visibility = 'hidden';*/
 
 document.getElementById('Moutp').style.visibility = 'hidden';
 document.getElementById('Youtp').style.visibility = 'hidden';
@@ -11,6 +10,7 @@ document.getElementById('Kmoutp').style.visibility = 'hidden';
 document.getElementById('moutp').style.visibility = 'hidden';
 document.getElementById('Cmoutp').style.visibility = 'hidden';
 document.getElementById('Mmoutp').style.visibility = 'hidden';
+
 
 document.getElementById('lengthInput').addEventListener('input', function(e){
     document.getElementById('Moutp').style.visibility = 'visible';
@@ -23,7 +23,7 @@ document.getElementById('lengthInput').addEventListener('input', function(e){
     document.getElementById('Mmoutp').style.visibility = 'visible';
     
     let length = e.target.value;
-    
+
     document.getElementById('Moutput').innerHTML = (length * 0.621371).toFixed(2) + ' Miles.';
     document.getElementById('Youtput').innerHTML = (length * 1093.61).toFixed(2) + ' Yards.';
     document.getElementById('Foutput').innerHTML = (length * 3280.84).toFixed(2) + ' Feet.';

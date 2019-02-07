@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Length Converter App</title>
-	<link rel="stylesheet" href="/assets/style/main.css" type="text/css" />
+	<link rel="stylesheet" href="assets/style/main.css" type="text/css" />
 </head>
 
 <body>
@@ -14,35 +14,35 @@
 	<div class="container">
 		<div class="header-row">
 			<h1 class="title">Length Conversion Calculator</h1>
-			<p>Input your length for conversion below, select the unit type from the list.</p>
+			<p>Input Kilometers for conversion below.</p>
 		</div>
 		<div class="row">
-			<form class="lengthform">
+			<form class="lengthform" id="lengthform">
 				<div class="formrow">
-					<input placeholder="Enter measurement here..." type="text" name="measurement" id="lengthInput" />
-					<select name="unitInputType" id="unitInputType">
-					<option value="" selected disabled>Unit Input</option>
-					<option value="km">Kilometers</option>
-					<option value="m">Meters</option>
-					<option value="cm">Centimeters</option>
-					<option value="mm">Millimeters</option>
-					<option value="M">Miles</option>
-					<option value="Yrd">Yards</option>
-					<option value="Ft">Feet</option>
-					<option value="In">Inches</option>
-				</select>
+					<input placeholder="Enter measurement here..." type="number" name="measurement" id="lengthInput" />
+	<!--			<select name="unitInputType" id="unitInputType" onchange="myNewFunction(this);">
+					<option selected disabled>Unit Input</option>
+					<option value="ikm">Kilometers</option>
+					<option value="im">Meters</option>
+					<option value="icm">Centimeters</option>
+					<option value="imm">Millimeters</option>
+					<option value="iM">Miles</option>
+					<option value="iYrd">Yards</option>
+					<option value="iFt">Feet</option>
+					<option value="iIn">Inches</option>
+				</select> 
 					<p> convert to </p>
 					<select name="unitOutputType" id="unitOutputType">
-					<option value="" selected disabled>Unit Output</option>
-					<option value="km">Kilometers</option>
-					<option value="m">Meters</option>
-					<option value="cm">Centimeters</option>
-					<option value="mm">Millimeters</option>
-					<option value="M">Miles</option>
-					<option value="Yrd">Yards</option>
-					<option value="Ft">Feet</option>
-					<option value="In">Inches</option>
-				</select>
+					<option selected disabled>Unit Output</option>
+					<option id="okm">Kilometers</option>
+					<option id="om">Meters</option>
+					<option id="ocm">Centimeters</option>
+					<option id="omm">Millimeters</option>
+					<option id="oM">Miles</option>
+					<option id="oYrd">Yards</option>
+					<option id="oFt">Feet</option>
+					<option id="oIn">Inches</option>
+				</select>                                   -->
 				</div>
 				<h3>Key</h3>
 					<div class="imperial-key">
@@ -120,7 +120,7 @@
 		</div>
 	</div>
 
-	<script src="/assets/script/main.js"></script>
+	<script src="assets/script/main.js"></script>
 
 
 </body>

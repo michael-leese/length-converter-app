@@ -1,19 +1,21 @@
 body {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
     width: 100vw;
     text-align: center;
 }
-.header-row{
+
+.header-row {
     width: 70%;
     margin: 20px auto;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #fafab9;
 }
+
 .row {
     width: 70%;
     margin: 20px auto;
@@ -28,45 +30,52 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.formrow{
-    margin: 10px auto;
-    width:80%;
+    padding-bottom: 10px;
 }
 
-.imperial-key{
+.formrow {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.imperial-key {
     display: flex;
-    align-items:center;
-    text-align:center;
-    width:100px;
-    height:50px;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
     background-color: #bada55;
 }
-.metric-key{
+
+.metric-key {
     display: flex;
-    align-items:center;
-    text-align:center;
-    width:100px;
-    height:50px;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
     background-color: #55c9da;
 }
-.margin-center{
+
+.margin-center {
     margin: 0 auto;
 }
 
 /*----------------------------output card-----------*/
-.card-container{
-     width: 70%;
-     margin: 20px auto;
+
+.card-container {
+    width: 70%;
+    margin: 20px auto;
 }
 
-.card1{
+.card1 {
     background-color: #bada55;
 }
-.card2{
+
+.card2 {
     background-color: #55c9da;
 }
+
 .card-block {
     display: inline;
-    
+
 }
