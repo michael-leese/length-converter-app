@@ -43,7 +43,7 @@ body {
 
 .keyrow{
     display: flex;
-    width: 25%;
+    width: 100%;
     justify-content: space-between;
 }
 .imperial-key {
@@ -93,7 +93,7 @@ body {
     align-items: center;
 }
 .card-container {
-    width: 50%;
+    width: 80%;
     margin: 10px auto;
 }
 h4{
