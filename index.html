@@ -19,8 +19,8 @@
 		<div class="row">
 			<form class="lengthform" id="lengthform">
 				<div class="formrow">
-					<input placeholder="Enter measurement here..." type="number" name="measurement" id="lengthInput" />
-	<!--			<select name="unitInputType" id="unitInputType" onchange="myNewFunction(this);">
+					<input class="input" placeholder="Enter measurement here..." type="number" name="measurement" id="lengthInput" />
+					<!--			<select name="unitInputType" id="unitInputType" onchange="myNewFunction(this);">
 					<option selected disabled>Unit Input</option>
 					<option value="ikm">Kilometers</option>
 					<option value="im">Meters</option>
@@ -45,81 +45,88 @@
 				</select>                                   -->
 				</div>
 				<h3>Key</h3>
+				<div class="keyrow">
 					<div class="imperial-key">
 						<p class="margin-center">Imperial</p>
 					</div>
 					<div class="metric-key">
 						<p class="margin-center">Metric</p>
 					</div>
+				</div>
 			</form>
-			
+
 		</div>
-		<div class="card-container" id="Moutp">
-			<div class="card1">
-				<div class="card-block">
-					<h4>Miles Output</h4>
-					<div id="Moutput">Figure</div>
+		<div class="cardrow">
+			<div class="imperial">
+				<div class="card-container" id="Moutp">
+					<div class="card1">
+						<div class="card-block">
+							<h4>Miles Output</h4>
+							<div id="Moutput">Figure</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-container" id="Youtp">
+					<div class="card1">
+						<div class="card-block">
+							<h4>Yards Output</h4>
+							<div id="Youtput">Figure</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-container" id="Foutp">
+					<div class="card1">
+						<div class="card-block">
+							<h4>Feet Output</h4>
+							<div id="Foutput">Figure</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-container" id="Ioutp">
+					<div class="card1">
+						<div class="card-block">
+							<h4>Inches Output</h4>
+							<div id="Ioutput">Figure</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card-container" id="Youtp">
-			<div class="card1">
-				<div class="card-block">
-					<h4>Yards Output</h4>
-					<div id="Youtput">Figure</div>
+			<div class="metric">
+				<div class="card-container" id="Kmoutp">
+					<div class="card2">
+						<div class="card-block">
+							<h4>Kilometers Output</h4>
+							<div id="Kmoutput">Figure</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="card-container" id="Foutp">
-			<div class="card1">
-				<div class="card-block">
-					<h4>Feet Output</h4>
-					<div id="Foutput">Figure</div>
+				<div class="card-container" id="moutp">
+					<div class="card2">
+						<div class="card-block">
+							<h4>Meters Output</h4>
+							<div id="moutput">Figure</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="card-container" id="Ioutp">
-			<div class="card1">
-				<div class="card-block">
-					<h4>Inches Output</h4>
-					<div id="Ioutput">Figure</div>
+				<div class="card-container" id="Cmoutp">
+					<div class="card2">
+						<div class="card-block">
+							<h4>Centimeters Output</h4>
+							<div id="Cmoutput">Figure</div>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-		<div class="card-container" id="Kmoutp">
-			<div class="card2">
-				<div class="card-block">
-					<h4>Kilometers Output</h4>
-					<div id="Kmoutput">Figure</div>
-				</div>
-			</div>
-		</div>
-		<div class="card-container" id="moutp">
-			<div class="card2">
-				<div class="card-block">
-					<h4>Meters Output</h4>
-					<div id="moutput">Figure</div>
-				</div>
-			</div>
-		</div>
-		<div class="card-container" id="Cmoutp">
-			<div class="card2">
-				<div class="card-block">
-					<h4>Centimeters Output</h4>
-					<div id="Cmoutput">Figure</div>
-				</div>
-			</div>
-		</div>
-		<div class="card-container" id="Mmoutp">
-			<div class="card2">
-				<div class="card-block">
-					<h4>Millimeters Output</h4>
-					<div id="Mmoutput">Figure</div>
+				<div class="card-container" id="Mmoutp">
+					<div class="card2">
+						<div class="card-block">
+							<h4>Millimeters Output</h4>
+							<div id="Mmoutput">Figure</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<script src="assets/script/main.js"></script>
 
 

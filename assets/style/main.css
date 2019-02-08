@@ -40,6 +40,12 @@ body {
 .input{
     width:200px;
 }
+
+.keyrow{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
 .imperial-key {
     display: flex;
     align-items: center;
@@ -64,9 +70,36 @@ body {
 
 /*----------------------------output card-----------*/
 
-.card-container {
+.cardrow {
     width: 70%;
     margin: 20px auto;
+    display: flex;
+    background-color: #fafab9;
+}
+.imperial{
+    padding: 0;
+    margin: 10px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.metric{
+    padding: 0;
+    margin: 10px auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.card-container {
+    width: 50%;
+    margin: 10px auto;
+}
+h4{
+    padding:0;
+    margin:5px auto;
+    margin-bottom: 5px;
 }
 
 .card1 {
