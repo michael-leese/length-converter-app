@@ -44,7 +44,7 @@ body {
 .keyrow{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .imperial-key {
     display: flex;
